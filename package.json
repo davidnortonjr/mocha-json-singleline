@@ -1,5 +1,5 @@
 {
-  "name": "mocha-spec-json-reporter",
+  "name": "mocha-json-singleline",
   "description": "A mocha reporter that outputs single-line JSON, allows fluentd parsing",
   "keywords": [
     "mocha",
@@ -14,14 +14,10 @@
       "type": "MIT"
     }
   ],
-  "author": {
-    "name": "Christian Uhl",
-    "email": "christian.uhl@codecentric.de",
-    "web": "http://www.codecentric.de"
-  },
+  "author": "Christian Uhl <christian.uhl@codecentric.de> (http://www.codecentric.de)",
   "repository": {
     "type": "git",
-    "url": "git://github.com:christianuhlcc/mocha-json-singleline.git"
+    "url": "git://github.com/christianuhlcc/mocha-json-singleline.git"
   },
   "main": "lib/mocha-json-singleline.js",
   "engines": {
@@ -35,5 +31,13 @@
     "assert": "~1.1.1",
     "sinon": "~1.10.0"
   },
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/christianuhlcc/mocha-json-singleline/issues"
+  },
+  "homepage": "https://github.com/christianuhlcc/mocha-json-singleline#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
 }
