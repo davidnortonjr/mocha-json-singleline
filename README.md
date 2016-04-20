@@ -13,5 +13,5 @@ sudo npm -g install mocha-json-singleline
 mocha -R mocha-json-singleline
 ```
 
-Output will be sent to SDOUT, but in a single line for each run. 
+Output will be sent to STDOUT, but in a single line for each run. 
 This is needed to have the output parsable by fluentd, who does not approve of newlines in your output.
