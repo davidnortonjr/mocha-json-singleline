@@ -1,0 +1,39 @@
+{
+  "name": "mocha-spec-json-reporter",
+  "description": "A mocha reporter that outputs single-line JSON, allows fluentd parsing",
+  "keywords": [
+    "mocha",
+    "JSON",
+    "spec",
+    "reporter",
+    "fluentd",
+    "ci"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "author": {
+    "name": "Christian Uhl",
+    "email": "christian.uhl@codecentric.de",
+    "web": "http://www.codecentric.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:christianuhlcc/mocha-json-singleline.git"
+  },
+  "main": "lib/mocha-json-singleline.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "mocha": ">=1.17.1",
+    "assert": "~1.1.1",
+    "sinon": "~1.10.0"
+  },
+  "version": "0.0.1"
+}
