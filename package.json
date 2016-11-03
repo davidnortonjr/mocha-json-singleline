@@ -1,6 +1,6 @@
 {
-  "name": "mocha-json-singleline",
-  "description": "A mocha reporter that outputs single-line JSON, allows fluentd parsing",
+  "name": "mocha-json-singleline-shorterline",
+  "description": "A mocha reporter that outputs single-line JSON, allows fluentd parsing. It also only includes stats and information about failures, so that the line is shorter.",
   "keywords": [
     "mocha",
     "JSON",
@@ -14,12 +14,12 @@
       "type": "MIT"
     }
   ],
-  "author": "Christian Uhl <christian.uhl@codecentric.de> (http://www.codecentric.de)",
+  "author": "David Norton <david@nortoncrew.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/christianuhlcc/mocha-json-singleline.git"
+    "url": "git://github.com/davidnortonjr/mocha-json-singleline.git"
   },
-  "main": "lib/mocha-json-singleline.js",
+  "main": "lib/mocha-json-singleline-shorterline.js",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -33,9 +33,9 @@
   },
   "version": "0.0.4",
   "bugs": {
-    "url": "https://github.com/christianuhlcc/mocha-json-singleline/issues"
+    "url": "https://github.com/davidnortonjr/mocha-json-singleline/issues"
   },
-  "homepage": "https://github.com/christianuhlcc/mocha-json-singleline#readme",
+  "homepage": "https://github.com/davidnortonjr/mocha-json-singleline#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
